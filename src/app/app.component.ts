@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'directive-app';
+  isActive: boolean = false;
+  // title = 'directive-app';
+
+  // color: string = "";
+
+  // addForm: FormGroup = new FormGroup({
+  //   firstName: new FormControl("",[Validators.required, Validators.minLength(3)])
+  // })
+
+  // changeColor(color: string){
+  //   this.color = color;
+  // }
 }
